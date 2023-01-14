@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+.nav{
+    background-color: rgb(61, 55, 55);
+    color: #ffff;
+    width: 50%;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+}
+.grey{
+    background-color: grey;
+    height: 100px;
+    text-align: center;
+}
+button{
+    background-color: skyblue;
+    border-radius: 5px;
+}
+.mydiv{
+    display: flex;
+    border: 5px blue;
+    justify-content: space-around;
+    width: 15px;
+    height: 15px;
+}
