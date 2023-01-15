@@ -1,38 +1,104 @@
 *{
     box-sizing: border-box;
 }
+body{
+    background-color: aliceblue;
+    margin: opx;
+    width: 40%;
+    
+}
 .nav{
-    background-color: rgb(61, 55, 55);
+    background-color: #1f2937;
     color: #ffff;
-    width: 50%;
+    padding-top: 0px;
+    padding-bottom: 80px;
 }
 .container{
     display: flex;
     justify-content: space-around;
+    color: #ffff;
+    text-decoration: none;
 }
-ul{
+.container,ul{
     display: flex;
-    justify-content: space-around;
     list-style: none;
+    color: #ffff;
+    
+    
+}
+a:link{
+    color: #ffff;
+    margin: 15px;
+    text-decoration: none;
     
 }
 .container2{
     display: flex;
     justify-content: space-around;
 }
-.grey{
-    background-color: grey;
-    height: 100px;
-    text-align: center;
+.container2 .grey{
+    background-color: rgba(117, 114, 114, 0.929);
+    padding: 40px;
+    margin: 40px;
+
 }
 button{
-    background-color: skyblue;
-    border-radius: 5px;
+    margin-left: 100px;
+    background-color: #3882f6;
+    color: #ffff;
+    padding: 3px;
+    border-radius: 10px;
+    width: 80px;
+    
 }
-.mydiv{
+.section{
+    background-color: #ffff;
+}
+.para, h2{
+    margin-left: 100px;
+    
+}
+
+.container3{
     display: flex;
-    border: 5px blue;
-    justify-content: space-around;
-    width: 15px;
-    height: 15px;
+    justify-content: space-evenly;
+}
+.container3 .box{
+    border: 3px solid #3882f6;
+    padding: 40px;
+    width: 100px;
+    border-radius: 8px;
+}
+.middle{
+    background-color: #E5E7EB;
+}
+.middle1{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px 0px;
+}
+
+ h3{
+    margin-left: 300px;
+}
+.footer{
+    background-color: #3882f6;
+    display: flex;
+    margin: 100px;
+    height: 100px;
+   
+}
+.myfooter{
+    margin-left: 100px;
+    color: #ffff;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+button{
+    margin: 50px;
+    color: #ffff;
+    border-radius: auto;
+    border: 1px solid white;
 }
